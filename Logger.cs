@@ -39,7 +39,7 @@ namespace Logger
 
                     Console.Write(CC.Message);
                 }
-            });
+            }, TaskCreationOptions.LongRunning);
         }
 
         private ConsoleColor BackColor = default;
