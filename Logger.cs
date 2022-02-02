@@ -55,7 +55,7 @@ namespace Logger
 			LoggerDic.TryAdd(type, this);
 		}
 
-		public static void RemoteLogger(Type type)
+		public static void RemoveLogger(Type type)
         {
 			LoggerDic.TryRemove(type, out _);
         }
